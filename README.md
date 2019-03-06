@@ -46,7 +46,7 @@ export default getAllCodes;
 
 ## build
 
-To build the project, run `npm build`. This will transpile the ES6 to ES5 using [Babel](https://babeljs.io/).
+To build the project, run `npm run build`. This will transpile the ES6 to ES5 using [Babel](https://babeljs.io/).
 
 ## test
 

@@ -1,5 +1,4 @@
-import { createAxiosClient, get } from '../../';
-
+import { createAxiosClient, get } from '../../../../';
 export const client = createAxiosClient();
 
 const baseUrl = '/api/codessearch/ethnicity';

@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = exports.client = void 0;
 
-var _index = require("../../../../index");
+var _index = require("../../../index");
 
 var client = (0, _index.createAxiosClient)();
 exports.client = client;

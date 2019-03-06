@@ -31,7 +31,4 @@ module.exports = {
       }
     ]
   },
-  node: {
-    fs: 'empty' // Prevent 'fs' error when building
-  },
 };

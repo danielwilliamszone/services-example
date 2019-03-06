@@ -5,14 +5,14 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = exports.client = void 0;
 
-var _ = require("../../../../");
+var _index = require("../../../../index");
 
-var client = (0, _.createAxiosClient)();
+var client = (0, _index.createAxiosClient)();
 exports.client = client;
 var baseUrl = '/api/codessearch/ethnicity';
 
 var getEthnicityCodes = function getEthnicityCodes() {
-  return (0, _.get)({
+  return (0, _index.get)({
     url: baseUrl,
     client: client
   }).then(function (_ref) {

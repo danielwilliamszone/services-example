@@ -46,10 +46,12 @@ export default getAllCodes;
 
 ## build
 
-To build the project, run `npm run build`. This will transpile the ES6 to ES5 using [Babel](https://babeljs.io/).
+To build the project, run `npm run build`.
+
+This will transpile the ES6 to ES5 using [Babel](https://babeljs.io/) into the `dist` folder, to be committed and deployed to GitHub.
 
 ## test
 
-To run the [Jest](https://jestjs.io/) tests, run `npm run test` into the `dist` folder, to be committed and deployed to GitHub.
+To run the [Jest](https://jestjs.io/) tests, run `npm run test`.
 
 `@babel/polyfill` is imported in tests that have async code, to get around the `ReferenceError: regeneratorRuntime is not defined` error.

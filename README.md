@@ -1,5 +1,12 @@
 # services-example
 
+## Objectives
+
+- Reduce duplication between apps (test directory, test selection, dashboard etc).
+- Rename "normalisers" to "transforms", as we change (transform) the shape of data.
+- Transform requests and responses in the services (not in Redux).
+- Handle testing of services (need to answer how we test "things" that use the services).
+
 ## Installation
 
 Can be [installed directly from GitHub](https://docs.npmjs.com/cli/install), with the desired [Git tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) affixed:

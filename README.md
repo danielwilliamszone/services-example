@@ -11,9 +11,7 @@
 
 Can be [installed directly from GitHub](https://docs.npmjs.com/cli/install), with the desired [Git tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) affixed:
 
-`npm i git+https://git@github.com/danielwilliamszone/services-example.git#v1.0.5`
-
-`npm i git+https://git@github.com/danielwilliamszone/services-example.git#v1.0.6`
+`npm i git+https://git@github.com/danielwilliamszone/services-example.git#v1.0.8`
 
 Tagged releases can be found on the *Releases* tab of the GitHub repo UI or by running `git tag -l`.
 

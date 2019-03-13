@@ -15,7 +15,9 @@ Can be [installed directly from GitHub](https://docs.npmjs.com/cli/install), wit
 
 `npm i git+https://git@github.com/danielwilliamszone/services-example.git#v1.0.6`
 
-Which adds it to the `package.json` using the repo name:
+Tagged releases can be found on the *Releases* tab of the GitHub repo UI or by running `git tag -l`.
+
+Installing from GitHub url adds it to the `package.json` using the repo name:
 
 ```
 "dependencies": {
